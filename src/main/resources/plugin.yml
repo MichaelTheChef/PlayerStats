@@ -1,0 +1,4 @@
+name: PlayerStats
+version: '${version}'
+main: me.mike.playerstats.PlayerStats
+api-version: '1.19'
