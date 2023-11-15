@@ -22,6 +22,7 @@ public class PlayerStats extends JavaPlugin {
                 playerDataManager.getPlayerData(playerName));
 
         getServer().getPluginManager().registerEvents(new PlayerEventListener(playerDataManager), this);
+        getCommand("sendmoney").setExecutor(this);
         saveConfig();
     }
 

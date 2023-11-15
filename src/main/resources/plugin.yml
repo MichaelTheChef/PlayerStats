@@ -2,3 +2,6 @@ name: PlayerStats
 version: '${version}'
 main: me.mike.playerstats.PlayerStats
 api-version: '1.19'
+commands:
+  sendmoney:
+    description: Send money to players.
